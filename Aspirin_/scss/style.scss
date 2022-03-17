@@ -1,0 +1,128 @@
+
+body {
+    padding: 10px;
+}
+.header {
+    text-align: center;
+}
+.block {
+    height: 55px;
+    background-color: #15a09d;
+}
+.title {
+    font-size: 40px;
+    font-weight: 800;
+}
+.verification {
+    font-size: 15px;
+}
+.sert {
+    color: #099402;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    .tick {
+        max-width: 50px;
+    }
+    span {
+        margin-left: 10px;
+        font-size: 40px;
+        font-weight: 800;
+    }
+}
+.sert_eng {
+    font-size: 15px;
+    color: #099402;
+}
+.patient {
+    margin-top: 20px;
+    font-size: 15px;
+    p {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+.year {
+    font-size: 15px;
+    p {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+.covid {
+    font-size: 15px;
+}
+.rnk {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.date {
+    font-size: 15px;
+    p {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width:580px) {
+    .title {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .sert {
+        color: #099402;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        .tick {
+            max-width: 50px;
+        }
+        span {
+            margin-left: 10px;
+            font-size: 30px;
+            font-weight: 800;
+        }
+    }
+}
+@media screen and (max-width:450px) {
+    body {
+        padding: 5px;
+    }
+    .title {
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .sert {
+        color: #099402;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        .tick {
+            max-width: 30px;
+        }
+        span {
+            margin-left: 10px;
+            font-size: 25px;
+            font-weight: 800;
+        }
+    }
+}
+@media screen and (max-width:370px) {
+    .logo {
+        max-width: 200px;
+    }
+    .block {
+        height: 30px;
+    }
+}
+@media screen and (max-width:230px) {
+    .logo {
+        max-width: 100px;
+    }
+    .block {
+        height: 10px;
+    }
+}
